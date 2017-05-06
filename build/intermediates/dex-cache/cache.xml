@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/tangqu/Desktop/MonashFriendFinder/MonashFriendFinder/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/tangqu/Desktop/MonashFriendFinder/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ee3849d5fa575e89634eaf9f72cb0cfeba52e36d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangqu/Desktop/MonashFriendFinder/MonashFriendFinder/app/libs/BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="253c39065009c74ac5397564cafc3ccf5052356e">
+        <dex dex="/Users/tangqu/Desktop/MonashFriendFinder/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/2/BaiduLBS_Android_53b50cf252227ac7c30203d261630d4a32ccb140/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangqu/Desktop/MonashFriendFinder/MonashFriendFinder/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="713fc0e3f516335e08a059528bbc4c0cc5ffacc5">
+        <dex dex="/Users/tangqu/Desktop/MonashFriendFinder/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b1d7755028bbed04c5a521d9d1df1caedda96430/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangqu/Desktop/MonashFriendFinder/MonashFriendFinder/app/libs/universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/Users/tangqu/Desktop/MonashFriendFinder/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.5_bdf57566d7a7d1722d4d2c35cb0b1c3bffaf6089/classes.dex" />
+    </item>
+
+</items>
