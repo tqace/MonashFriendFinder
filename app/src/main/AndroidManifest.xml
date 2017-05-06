@@ -34,6 +34,8 @@
         </activity>
         <activity android:name=".WeatherActivity">
         </activity>
+        <activity android:name=".SignupDetail">
+        </activity>
         <activity android:name=".MovieInfo">
         </activity>
         <activity android:name=".LoginActivity">

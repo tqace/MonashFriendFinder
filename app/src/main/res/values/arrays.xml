@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="course">
+        <item>MIT</item>
+        <item>MBIS</item>
+        <item>MNS</item>
+    </string-array>
+
+    <string-array name="study_mode">
+        <item>Full_time</item>
+        <item>Part_time</item>
+    </string-array>
+
+    <string-array name="nationality">
+        <item>Australia</item>
+        <item>America</item>
+        <item>China</item>
+        <item>Canada</item>
+        <item>England</item>
+        <item>Italy</item>
+    </string-array>
+
+    <string-array name="native_laguage">
+        <item>Chinese</item>
+        <item>English</item>
+        <item>Italian</item>
+    </string-array>
+
+    <string-array name="favorite_unit">
+        <item>5183</item>
+        <item>5186</item>
+        <item>5189</item>
+        <item>5190</item>
+    </string-array>
+
+</resources>

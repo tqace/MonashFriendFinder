@@ -55,10 +55,10 @@ public class LoginActivity extends AppCompatActivity {
 
         btnSignup.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Animation clockwise= AnimationUtils.loadAnimation(getApplicationContext(),R.anim.rotate_right_to_left);
-                if(isSigninScreen)
-                    btnSignup.startAnimation(clockwise);
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(LoginActivity.this, SignupDetail.class);
+                startActivity(intent);
             }
         });
         btnSignin.setOnClickListener(new View.OnClickListener() {

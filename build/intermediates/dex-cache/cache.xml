@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
+        jar="/Users/tangqu/.android/build-cache/502dda6be1295a5d674553ba02c02e1e6c6894de/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="/Users/tangqu/Desktop/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3694040ecc3337f532f090c7629f03241c047673/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/tangqu/.android/build-cache/a1ffbb49311267ee5fc86ac23443395b6e26e117/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="95519720620b553f63afc789beba9ad582807f7c">
         <dex dex="/Users/tangqu/Downloads/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0511250a7f2413ee262e9c2b8d87af1b794201b4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/tangqu/Downloads/MonashFriendFinder/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9b01007dc4391caed7e856adeecf086d24946919">
-        <dex dex="/Users/tangqu/Downloads/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_68edab4148e0bf55129486b640b8c4c2e832b377/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -30,15 +30,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/tangqu/.android/build-cache/f934a82eb45825e782039956ac6e86116aa6fccb/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1fc708e023161b0dd4d6fa6e7c3dee593c920b55">
-        <dex dex="/Users/tangqu/Downloads/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f3554a2f0997da5f1fdb9c404ad190b8fc32d845/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/tangqu/Downloads/MonashFriendFinder/app/libs/BaiduLBS_Android.jar"
         jumboMode="true"
         optimize="true"
@@ -48,12 +39,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/tangqu/Downloads/MonashFriendFinder/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/tangqu/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/Users/tangqu/Downloads/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b911b8390fbb7b032732147dc5d057a6767d1c70/classes.dex" />
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="/Users/tangqu/Desktop/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.5.1_5c1aa4f72e08a917ce0b2c5018888737df5eda45/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -72,6 +63,69 @@
         revision="25.0.2"
         sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
         <dex dex="/Users/tangqu/Downloads/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.5_f5885075ce6fef2238f3132416366b473de39dc0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangqu/Downloads/MonashFriendFinder/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9b01007dc4391caed7e856adeecf086d24946919">
+        <dex dex="/Users/tangqu/Downloads/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_68edab4148e0bf55129486b640b8c4c2e832b377/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangqu/.android/build-cache/f934a82eb45825e782039956ac6e86116aa6fccb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1fc708e023161b0dd4d6fa6e7c3dee593c920b55">
+        <dex dex="/Users/tangqu/Downloads/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f3554a2f0997da5f1fdb9c404ad190b8fc32d845/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangqu/Desktop/MonashFriendFinder/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/tangqu/Desktop/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_17667d1a16e39b67711e58fc83f52b455df11f1f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangqu/Desktop/MonashFriendFinder/app/libs/universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/Users/tangqu/Desktop/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.5_80aa2e2474b82c21ed9647c69b6888f907c4a9a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangqu/Desktop/MonashFriendFinder/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dbe6a379ddc8209de51c1d35a4f99094d4f5f711">
+        <dex dex="/Users/tangqu/Desktop/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eeaf1baae9d6cd45db01c44610b7d0c88af973b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangqu/Downloads/MonashFriendFinder/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/tangqu/Downloads/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b911b8390fbb7b032732147dc5d057a6767d1c70/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tangqu/Desktop/MonashFriendFinder/app/libs/BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="253c39065009c74ac5397564cafc3ccf5052356e">
+        <dex dex="/Users/tangqu/Desktop/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/2/BaiduLBS_Android_6f11b2b34655275b65c23a8146d889297420ea69/classes.dex" />
     </item>
 
 </items>
