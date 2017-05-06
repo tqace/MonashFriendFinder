@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
             });
-
         Button weather = (Button) findViewById(R.id.button2);
         weather.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
         Button movie = (Button) findViewById(R.id.button3);
         movie.setOnClickListener(new View.OnClickListener() {
             @Override

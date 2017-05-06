@@ -91,7 +91,7 @@ public class MovieInfo extends AppCompatActivity {
     }
 
     /**
-     * 处理并展示Weather实体类中的数据。
+     * 处理并展示Result实体类中的数据。
      */
     private void showMovieInfo(MovieInfo.Result result) {
 
@@ -113,4 +113,3 @@ public class MovieInfo extends AppCompatActivity {
 
 
 }
-

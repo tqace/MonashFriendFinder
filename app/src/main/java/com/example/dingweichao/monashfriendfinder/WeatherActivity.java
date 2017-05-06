@@ -52,18 +52,25 @@ public class WeatherActivity extends AppCompatActivity {
        // weatherId = getIntent().getStringExtra("weather_id");
         requestWeather(weatherId);
     }
-    public class Weather {
+    public class
+    Weather {
         public Basic basic;
-        public String status;
         public Now now;
-
+        public String status;
     }
     public class Basic {
         public String city;
         private String cnty;
         public String id;
+        public String lat;
+        public String lon;
 
-
+        public Update update;
+        public class Update
+        {
+            public String loc;
+            public String utc;
+        }
     }
     public class Now {
         public Cond cond;
@@ -92,7 +99,7 @@ public class WeatherActivity extends AppCompatActivity {
      * 根据天气id请求城市天气信息。
      */
     public void requestWeather(final String weatherId) {
-        String weatherUrl = "https://free-api.heweather.com/v5/now?city=" + weatherId + "&key=943badd9f8fb4ffa85486c9a25340466";
+        String weatherUrl = "https://free-api.heweather.com/v5/now?city=" + weatherId + "&key=943badd9f8fb4ffa85486c9a25340466&lang=En";
         HttpUtil.sendOkHttpRequest(weatherUrl, new Callback() {
             @Override
             public void onResponse(Call call, Response response) throws IOException {
