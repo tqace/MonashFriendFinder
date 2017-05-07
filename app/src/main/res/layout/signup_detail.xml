@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:hint="Gender" />
+        />
 
     <com.weiwangcn.betterspinner.library.BetterSpinner
         android:id="@+id/spinner2"
@@ -62,13 +62,6 @@
 
     <com.weiwangcn.betterspinner.library.BetterSpinner
         android:id="@+id/spinner6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:hint="Favorite Unit" />
-
-    <com.weiwangcn.betterspinner.library.BetterSpinner
-        android:id="@+id/spinner7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_vertical_margin"

@@ -10,7 +10,8 @@ import android.app.DatePickerDialog;
 import android.view.inputmethod.InputMethodManager;
 
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
+import android.widget.*;
+
 import android.widget.DatePicker;
 import java.util.Calendar;
 
@@ -26,6 +27,7 @@ import butterknife.ButterKnife;
 
 
 public class SignupDetail extends AppCompatActivity {
+
 
     @BindView(R2.id.spinner1)
     BetterSpinner spinner1;
@@ -61,10 +63,10 @@ public class SignupDetail extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.signup_detail);
         ButterKnife.bind(this);
-
         calendar = Calendar.getInstance();
 
-       edit_text_dob.setOnClickListener(new OnClickListener() {
+
+        edit_text_dob.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 new DatePickerDialog(SignupDetail.this,
@@ -122,7 +124,6 @@ public class SignupDetail extends AppCompatActivity {
         spinner4.setAdapter(adapter4);
         spinner5.setAdapter(adapter5);
         spinner6.setAdapter(adapter6);
-
     }
 
 

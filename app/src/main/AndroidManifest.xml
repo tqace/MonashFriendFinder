@@ -32,6 +32,8 @@
         </activity>
         <activity android:name=".bMap">
         </activity>
+        <activity android:name=".Me">
+        </activity>
         <activity android:name=".WeatherActivity">
         </activity>
         <activity android:name=".SignupDetail">

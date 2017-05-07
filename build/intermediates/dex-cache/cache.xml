@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/tangqu/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/tangqu/Desktop/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_98f4d4f50cfeb17f66fc059628852768f38a5303/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/tangqu/Downloads/MonashFriendFinder/app/libs/BaiduLBS_Android.jar"
         jumboMode="true"
         optimize="true"
@@ -106,7 +115,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="dbe6a379ddc8209de51c1d35a4f99094d4f5f711">
+        sha1="7124b7f90e85d039db3638cedafa9ea165da047c">
         <dex dex="/Users/tangqu/Desktop/MonashFriendFinder/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eeaf1baae9d6cd45db01c44610b7d0c88af973b6/classes.dex" />
     </item>
     <item

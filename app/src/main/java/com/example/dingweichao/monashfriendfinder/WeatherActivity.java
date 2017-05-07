@@ -10,24 +10,23 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import android.preference.PreferenceManager;
-import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
-
-import android.text.TextUtils;
-import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.dingweichao.service.AutoUpdateService;
 import com.example.dingweichao.util.HttpUtil;
 import com.example.dingweichao.util.Utility;
-import com.google.gson.Gson;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -35,22 +34,38 @@ import okhttp3.Response;
 
 
 public class WeatherActivity extends AppCompatActivity {
-
-
+    public DrawerLayout drawerLayout;
+    private Button navButton;
     private TextView degreeText;
 
     private TextView weatherInfoText;
+    private ListView listView;
+
+    private ArrayAdapter<String> adapter;
+
+    private List<String> dataList = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_weather);
+        setContentView(R.layout.main_test);
         degreeText = (TextView) findViewById(R.id.degree_text);
         weatherInfoText = (TextView) findViewById(R.id.weather_info_text);
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        navButton = (Button) findViewById(R.id.nav_button);
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        String weatherString = prefs.getString("weather", null);
         final String weatherId="beijing";
+        navButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                drawerLayout.openDrawer(GravityCompat.START);
+            }
+        });
         // 无缓存时去服务器查询天气
        // weatherId = getIntent().getStringExtra("weather_id");
         requestWeather(weatherId);
+
     }
     public class
     Weather {
@@ -146,5 +161,7 @@ public class WeatherActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AutoUpdateService.class);
         startService(intent);
     }
+
+
 }
 
