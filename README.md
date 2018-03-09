@@ -1,4 +1,9 @@
 # MonashFriendFinder
+
+安卓APP，学生社交软件。
+
+可以根据兴趣爱好，地理位置，选课情况推荐好友。
+
  增加的文件：signup_detail.xml
            Signup_detail.java
            rest/value／arrays.xml
